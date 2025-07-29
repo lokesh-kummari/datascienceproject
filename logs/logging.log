@@ -1,1 +1,76 @@
 [2025-07-29 13:37:19,414: INFO: main: Logging has been set up successfully.]
+[2025-07-29 15:20:40,750: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/config/config.yaml loaded successfully]
+[2025-07-29 15:32:04,130: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/config/config.yaml loaded successfully]
+[2025-07-29 15:32:04,150: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/params.yaml loaded successfully]
+[2025-07-29 15:33:03,140: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/config/config.yaml loaded successfully]
+[2025-07-29 15:33:03,140: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/params.yaml loaded successfully]
+[2025-07-29 15:34:38,815: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/config/config.yaml loaded successfully]
+[2025-07-29 15:34:38,816: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/params.yaml loaded successfully]
+[2025-07-29 15:35:19,788: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/config/config.yaml loaded successfully]
+[2025-07-29 15:35:19,790: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/params.yaml loaded successfully]
+[2025-07-29 15:35:19,791: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/schema.yaml loaded successfully]
+[2025-07-29 15:35:19,792: INFO: common: created directory at: artifacts]
+[2025-07-29 15:35:19,793: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-29 15:35:20,610: INFO: 251335794: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: C80E:136ADB:E75AC:2290FB:68889CDC
+Accept-Ranges: bytes
+Date: Tue, 29 Jul 2025 10:05:17 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10230-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1753783517.259678,VS0,VE268
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 1fb7901cc6b840d6644e154cf0e715386e20c830
+Expires: Tue, 29 Jul 2025 10:10:17 GMT
+Source-Age: 0
+
+]
+[2025-07-29 15:51:17,084: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-29 15:51:17,084: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/config/config.yaml loaded successfully]
+[2025-07-29 15:51:17,085: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/params.yaml loaded successfully]
+[2025-07-29 15:51:17,086: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/schema.yaml loaded successfully]
+[2025-07-29 15:51:17,086: INFO: common: created directory at: artifacts]
+[2025-07-29 15:51:17,086: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-29 15:51:17,881: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: C80E:136ADB:E75AC:2290FB:68889CDC
+Accept-Ranges: bytes
+Date: Tue, 29 Jul 2025 10:21:14 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10240-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1753784475.500439,VS0,VE270
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: c11ec90821ce733ee3b0a11fa4dcd4648ecc6100
+Expires: Tue, 29 Jul 2025 10:26:14 GMT
+Source-Age: 0
+
+]
+[2025-07-29 15:51:17,886: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
