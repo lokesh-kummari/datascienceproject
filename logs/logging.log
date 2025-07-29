@@ -456,3 +456,258 @@ Traceback (most recent call last):
   File "/Users/lokesh/Desktop/MLFLOW/datascienceproject/venv/lib/python3.13/site-packages/mlflow/utils/rest_utils.py", line 308, in verify_rest_response
     raise RestException(json.loads(response.text))
 mlflow.exceptions.RestException: INTERNAL_ERROR: Response: {'error': 'unsupported endpoint, please contact support@dagshub.com'}
+[2025-07-29 20:42:55,991: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.151:8080]
+[2025-07-29 20:42:55,992: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-07-29 20:43:06,413: INFO: _internal: 127.0.0.1 - - [29/Jul/2025 20:43:06] "GET / HTTP/1.1" 200 -]
+[2025-07-29 20:43:06,561: INFO: _internal: 127.0.0.1 - - [29/Jul/2025 20:43:06] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2025-07-29 20:43:06,724: INFO: _internal: 127.0.0.1 - - [29/Jul/2025 20:43:06] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -]
+[2025-07-29 20:43:06,972: INFO: _internal: 127.0.0.1 - - [29/Jul/2025 20:43:06] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -]
+[2025-07-29 20:43:07,836: INFO: _internal: 127.0.0.1 - - [29/Jul/2025 20:43:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2025-07-29 20:43:10,981: INFO: _internal: 127.0.0.1 - - [29/Jul/2025 20:43:10] "GET / HTTP/1.1" 200 -]
+[2025-07-29 20:43:10,988: INFO: _internal: 127.0.0.1 - - [29/Jul/2025 20:43:10] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2025-07-29 20:43:16,532: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-29 20:43:16,534: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/config/config.yaml loaded successfully]
+[2025-07-29 20:43:16,535: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/params.yaml loaded successfully]
+[2025-07-29 20:43:16,536: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/schema.yaml loaded successfully]
+[2025-07-29 20:43:16,536: INFO: common: created directory at: artifacts]
+[2025-07-29 20:43:16,536: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-29 20:43:16,536: INFO: data_ingestion: File already exists]
+[2025-07-29 20:43:16,538: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-29 20:43:16,538: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-07-29 20:43:16,539: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/config/config.yaml loaded successfully]
+[2025-07-29 20:43:16,539: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/params.yaml loaded successfully]
+[2025-07-29 20:43:16,540: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/schema.yaml loaded successfully]
+[2025-07-29 20:43:16,540: INFO: common: created directory at: artifacts]
+[2025-07-29 20:43:16,540: INFO: common: created directory at: artifacts/data_validation]
+[2025-07-29 20:43:16,546: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-07-29 20:43:16,546: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-07-29 20:43:16,547: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/config/config.yaml loaded successfully]
+[2025-07-29 20:43:16,547: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/params.yaml loaded successfully]
+[2025-07-29 20:43:16,548: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/schema.yaml loaded successfully]
+[2025-07-29 20:43:16,548: INFO: common: created directory at: artifacts]
+[2025-07-29 20:43:16,548: INFO: common: created directory at: artifacts/data_transformation]
+[2025-07-29 20:43:16,548: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-07-29 20:43:16,548: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-07-29 20:43:16,548: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/config/config.yaml loaded successfully]
+[2025-07-29 20:43:16,549: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/params.yaml loaded successfully]
+[2025-07-29 20:43:16,549: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/schema.yaml loaded successfully]
+[2025-07-29 20:43:16,549: INFO: common: created directory at: artifacts]
+[2025-07-29 20:43:16,549: INFO: common: created directory at: artifacts/model_trainer]
+[2025-07-29 20:43:16,561: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-07-29 20:43:16,561: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2025-07-29 20:43:16,562: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/config/config.yaml loaded successfully]
+[2025-07-29 20:43:16,563: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/params.yaml loaded successfully]
+[2025-07-29 20:43:16,563: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/schema.yaml loaded successfully]
+[2025-07-29 20:43:16,563: INFO: common: created directory at: artifacts]
+[2025-07-29 20:43:16,563: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-07-29 20:43:17,465: INFO: common: json file saved at: artifacts/model_evaluation/metrics.json]
+[2025-07-29 20:43:22,580: ERROR: main: INTERNAL_ERROR: Response: {'error': 'unsupported endpoint, please contact support@dagshub.com'}]
+Traceback (most recent call last):
+  File "/Users/lokesh/Desktop/MLFLOW/datascienceproject/main.py", line 53, in <module>
+    data_ingestion.initiate_model_evaluation()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/lokesh/Desktop/MLFLOW/datascienceproject/src/datascience/pipeline/model_evaluation_pipeline.py", line 15, in initiate_model_evaluation
+    model_evaluation.log_into_mlflow()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/lokesh/Desktop/MLFLOW/datascienceproject/src/datascience/components/model_evaluation.py", line 66, in log_into_mlflow
+    mlflow.sklearn.log_model(model, "model")
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/lokesh/Desktop/MLFLOW/datascienceproject/venv/lib/python3.13/site-packages/mlflow/sklearn/__init__.py", line 426, in log_model
+    return Model.log(
+           ~~~~~~~~~^
+        artifact_path=artifact_path,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<18 lines>...
+        model_id=model_id,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/lokesh/Desktop/MLFLOW/datascienceproject/venv/lib/python3.13/site-packages/mlflow/models/model.py", line 1161, in log
+    model = mlflow.initialize_logged_model(
+        # TODO: Update model name
+    ...<6 lines>...
+        else None,
+    )
+  File "/Users/lokesh/Desktop/MLFLOW/datascienceproject/venv/lib/python3.13/site-packages/mlflow/tracking/fluent.py", line 2130, in initialize_logged_model
+    model = _create_logged_model(
+        name=name,
+    ...<4 lines>...
+        experiment_id=experiment_id,
+    )
+  File "/Users/lokesh/Desktop/MLFLOW/datascienceproject/venv/lib/python3.13/site-packages/mlflow/tracking/fluent.py", line 2257, in _create_logged_model
+    return MlflowClient().create_logged_model(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        experiment_id=experiment_id,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        model_type=model_type,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/lokesh/Desktop/MLFLOW/datascienceproject/venv/lib/python3.13/site-packages/mlflow/tracking/client.py", line 5369, in create_logged_model
+    return self._tracking_client.create_logged_model(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        experiment_id, name, source_run_id, tags, params, model_type
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/lokesh/Desktop/MLFLOW/datascienceproject/venv/lib/python3.13/site-packages/mlflow/tracking/_tracking_service/client.py", line 824, in create_logged_model
+    return self.store.create_logged_model(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        experiment_id=experiment_id,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+        model_type=model_type,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/lokesh/Desktop/MLFLOW/datascienceproject/venv/lib/python3.13/site-packages/mlflow/store/tracking/rest_store.py", line 936, in create_logged_model
+    response_proto = self._call_endpoint(CreateLoggedModel, req_body)
+  File "/Users/lokesh/Desktop/MLFLOW/datascienceproject/venv/lib/python3.13/site-packages/mlflow/store/tracking/rest_store.py", line 135, in _call_endpoint
+    return call_endpoint(
+        self.get_host_creds(),
+    ...<4 lines>...
+        retry_timeout_seconds=retry_timeout_seconds,
+    )
+  File "/Users/lokesh/Desktop/MLFLOW/datascienceproject/venv/lib/python3.13/site-packages/mlflow/utils/rest_utils.py", line 594, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "/Users/lokesh/Desktop/MLFLOW/datascienceproject/venv/lib/python3.13/site-packages/mlflow/utils/rest_utils.py", line 308, in verify_rest_response
+    raise RestException(json.loads(response.text))
+mlflow.exceptions.RestException: INTERNAL_ERROR: Response: {'error': 'unsupported endpoint, please contact support@dagshub.com'}
+[2025-07-29 20:43:22,779: INFO: _internal: 127.0.0.1 - - [29/Jul/2025 20:43:22] "GET /train HTTP/1.1" 200 -]
+[2025-07-29 20:43:36,393: INFO: _internal: 127.0.0.1 - - [29/Jul/2025 20:43:36] "GET / HTTP/1.1" 200 -]
+[2025-07-29 20:43:36,397: INFO: _internal: 127.0.0.1 - - [29/Jul/2025 20:43:36] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2025-07-29 20:43:37,298: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-29 20:43:37,299: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/config/config.yaml loaded successfully]
+[2025-07-29 20:43:37,299: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/params.yaml loaded successfully]
+[2025-07-29 20:43:37,300: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/schema.yaml loaded successfully]
+[2025-07-29 20:43:37,300: INFO: common: created directory at: artifacts]
+[2025-07-29 20:43:37,300: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-29 20:43:37,300: INFO: data_ingestion: File already exists]
+[2025-07-29 20:43:37,301: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-29 20:43:37,301: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-07-29 20:43:37,302: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/config/config.yaml loaded successfully]
+[2025-07-29 20:43:37,302: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/params.yaml loaded successfully]
+[2025-07-29 20:43:37,303: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/schema.yaml loaded successfully]
+[2025-07-29 20:43:37,303: INFO: common: created directory at: artifacts]
+[2025-07-29 20:43:37,303: INFO: common: created directory at: artifacts/data_validation]
+[2025-07-29 20:43:37,306: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-07-29 20:43:37,306: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-07-29 20:43:37,306: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/config/config.yaml loaded successfully]
+[2025-07-29 20:43:37,307: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/params.yaml loaded successfully]
+[2025-07-29 20:43:37,307: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/schema.yaml loaded successfully]
+[2025-07-29 20:43:37,307: INFO: common: created directory at: artifacts]
+[2025-07-29 20:43:37,307: INFO: common: created directory at: artifacts/data_transformation]
+[2025-07-29 20:43:37,307: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-07-29 20:43:37,307: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-07-29 20:43:37,308: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/config/config.yaml loaded successfully]
+[2025-07-29 20:43:37,308: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/params.yaml loaded successfully]
+[2025-07-29 20:43:37,309: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/schema.yaml loaded successfully]
+[2025-07-29 20:43:37,309: INFO: common: created directory at: artifacts]
+[2025-07-29 20:43:37,309: INFO: common: created directory at: artifacts/model_trainer]
+[2025-07-29 20:43:37,314: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-07-29 20:43:37,314: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2025-07-29 20:43:37,315: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/config/config.yaml loaded successfully]
+[2025-07-29 20:43:37,315: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/params.yaml loaded successfully]
+[2025-07-29 20:43:37,315: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/schema.yaml loaded successfully]
+[2025-07-29 20:43:37,315: INFO: common: created directory at: artifacts]
+[2025-07-29 20:43:37,315: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-07-29 20:43:37,972: INFO: common: json file saved at: artifacts/model_evaluation/metrics.json]
+[2025-07-29 20:43:38,071: INFO: _internal: 127.0.0.1 - - [29/Jul/2025 20:43:38] "GET / HTTP/1.1" 200 -]
+[2025-07-29 20:43:38,078: INFO: _internal: 127.0.0.1 - - [29/Jul/2025 20:43:38] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2025-07-29 20:43:40,391: INFO: _internal: 127.0.0.1 - - [29/Jul/2025 20:43:40] "GET /predict HTTP/1.1" 200 -]
+[2025-07-29 20:43:40,397: INFO: _internal: 127.0.0.1 - - [29/Jul/2025 20:43:40] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2025-07-29 20:43:42,941: ERROR: main: INTERNAL_ERROR: Response: {'error': 'unsupported endpoint, please contact support@dagshub.com'}]
+Traceback (most recent call last):
+  File "/Users/lokesh/Desktop/MLFLOW/datascienceproject/main.py", line 53, in <module>
+    data_ingestion.initiate_model_evaluation()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/lokesh/Desktop/MLFLOW/datascienceproject/src/datascience/pipeline/model_evaluation_pipeline.py", line 15, in initiate_model_evaluation
+    model_evaluation.log_into_mlflow()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/lokesh/Desktop/MLFLOW/datascienceproject/src/datascience/components/model_evaluation.py", line 66, in log_into_mlflow
+    mlflow.sklearn.log_model(model, "model")
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/lokesh/Desktop/MLFLOW/datascienceproject/venv/lib/python3.13/site-packages/mlflow/sklearn/__init__.py", line 426, in log_model
+    return Model.log(
+           ~~~~~~~~~^
+        artifact_path=artifact_path,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<18 lines>...
+        model_id=model_id,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/lokesh/Desktop/MLFLOW/datascienceproject/venv/lib/python3.13/site-packages/mlflow/models/model.py", line 1161, in log
+    model = mlflow.initialize_logged_model(
+        # TODO: Update model name
+    ...<6 lines>...
+        else None,
+    )
+  File "/Users/lokesh/Desktop/MLFLOW/datascienceproject/venv/lib/python3.13/site-packages/mlflow/tracking/fluent.py", line 2130, in initialize_logged_model
+    model = _create_logged_model(
+        name=name,
+    ...<4 lines>...
+        experiment_id=experiment_id,
+    )
+  File "/Users/lokesh/Desktop/MLFLOW/datascienceproject/venv/lib/python3.13/site-packages/mlflow/tracking/fluent.py", line 2257, in _create_logged_model
+    return MlflowClient().create_logged_model(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        experiment_id=experiment_id,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        model_type=model_type,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/lokesh/Desktop/MLFLOW/datascienceproject/venv/lib/python3.13/site-packages/mlflow/tracking/client.py", line 5369, in create_logged_model
+    return self._tracking_client.create_logged_model(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        experiment_id, name, source_run_id, tags, params, model_type
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/lokesh/Desktop/MLFLOW/datascienceproject/venv/lib/python3.13/site-packages/mlflow/tracking/_tracking_service/client.py", line 824, in create_logged_model
+    return self.store.create_logged_model(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        experiment_id=experiment_id,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+        model_type=model_type,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/lokesh/Desktop/MLFLOW/datascienceproject/venv/lib/python3.13/site-packages/mlflow/store/tracking/rest_store.py", line 936, in create_logged_model
+    response_proto = self._call_endpoint(CreateLoggedModel, req_body)
+  File "/Users/lokesh/Desktop/MLFLOW/datascienceproject/venv/lib/python3.13/site-packages/mlflow/store/tracking/rest_store.py", line 135, in _call_endpoint
+    return call_endpoint(
+        self.get_host_creds(),
+    ...<4 lines>...
+        retry_timeout_seconds=retry_timeout_seconds,
+    )
+  File "/Users/lokesh/Desktop/MLFLOW/datascienceproject/venv/lib/python3.13/site-packages/mlflow/utils/rest_utils.py", line 594, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "/Users/lokesh/Desktop/MLFLOW/datascienceproject/venv/lib/python3.13/site-packages/mlflow/utils/rest_utils.py", line 308, in verify_rest_response
+    raise RestException(json.loads(response.text))
+mlflow.exceptions.RestException: INTERNAL_ERROR: Response: {'error': 'unsupported endpoint, please contact support@dagshub.com'}
+[2025-07-29 20:43:43,160: INFO: _internal: 127.0.0.1 - - [29/Jul/2025 20:43:43] "GET /train HTTP/1.1" 200 -]
+[2025-07-29 20:44:05,151: INFO: _internal: 127.0.0.1 - - [29/Jul/2025 20:44:05] "POST /predict HTTP/1.1" 200 -]
