@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/lokesh/Desktop/MLFLOW/datascienceproject/mlruns/0/1ff43d0c5c5c4a149fadb3a08e0160d1/artifacts
+end_time: 1753800202752
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1ff43d0c5c5c4a149fadb3a08e0160d1
+run_name: redolent-dog-545
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753800200473
+status: 3
+tags: []
+user_id: lokesh

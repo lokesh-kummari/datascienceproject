@@ -1,0 +1,10 @@
+artifact_location: file:///Users/lokesh/Desktop/MLFLOW/datascienceproject/mlruns/0/models/m-bdb2bb4a9919452f99c757e83c288f0e/artifacts
+creation_timestamp: 1753800200493
+experiment_id: '0'
+last_updated_timestamp: 1753800202751
+model_id: m-bdb2bb4a9919452f99c757e83c288f0e
+model_type: null
+name: model
+source_run_id: 1ff43d0c5c5c4a149fadb3a08e0160d1
+status: 2
+status_message: null
