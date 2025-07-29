@@ -74,3 +74,31 @@ Source-Age: 0
 [2025-07-29 15:51:17,886: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
+[2025-07-29 18:43:35,950: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/config/config.yaml loaded successfully]
+[2025-07-29 18:43:35,955: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/params.yaml loaded successfully]
+[2025-07-29 18:43:35,957: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/schema.yaml loaded successfully]
+[2025-07-29 18:43:35,958: INFO: common: created directory at: artifacts]
+[2025-07-29 18:45:28,098: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/config/config.yaml loaded successfully]
+[2025-07-29 18:45:28,100: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/params.yaml loaded successfully]
+[2025-07-29 18:45:28,101: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/schema.yaml loaded successfully]
+[2025-07-29 18:45:28,101: INFO: common: created directory at: artifacts]
+[2025-07-29 18:45:28,102: INFO: common: created directory at: artifacts/data_validation]
+[2025-07-29 18:50:14,404: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-29 18:50:14,405: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/config/config.yaml loaded successfully]
+[2025-07-29 18:50:14,407: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/params.yaml loaded successfully]
+[2025-07-29 18:50:14,408: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/schema.yaml loaded successfully]
+[2025-07-29 18:50:14,408: INFO: common: created directory at: artifacts]
+[2025-07-29 18:50:14,408: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-29 18:50:14,408: INFO: data_ingestion: File already exists]
+[2025-07-29 18:50:14,410: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-29 18:50:14,410: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-07-29 18:50:14,410: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/config/config.yaml loaded successfully]
+[2025-07-29 18:50:14,410: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/params.yaml loaded successfully]
+[2025-07-29 18:50:14,411: INFO: common: yaml file: /Users/lokesh/Desktop/MLFLOW/datascienceproject/schema.yaml loaded successfully]
+[2025-07-29 18:50:14,411: INFO: common: created directory at: artifacts]
+[2025-07-29 18:50:14,411: INFO: common: created directory at: artifacts/data_validation]
+[2025-07-29 18:50:14,415: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
